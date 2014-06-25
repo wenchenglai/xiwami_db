@@ -1,0 +1,12 @@
+localhost:8080/families
+POST
+Content-Type: application/json
+
+{
+"family": {    
+   "zipcode" : "48105",
+   "cityState" : "Ann Arbor, MI",
+   "familyName" : "Lai",   
+   "description" : "we are a happy family of three"
+ }
+}

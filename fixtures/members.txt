@@ -1,0 +1,53 @@
+localhost:8080/members
+POST
+Content-Type : application/json
+{ 
+  "member": {
+    "lastName": "Lai",
+    "firstName": "Wen",
+    "nickName": "Wayne",
+    "email": "wenchenglai@gmail.com",
+    "birthday": "1978/1/1",
+    "languages": ["Chinese", "English"],
+    "type": "Parent",
+    "gender": "male",
+    "avatarUrl": "wenlai.jpg",
+	"isUser" : true,
+    "facebookId" : "2143254",
+    "family" : "53a78f832e853854ec59d93f"
+  }
+}
+
+{ 
+  "member": {
+    "lastName": "Chen",
+    "firstName": "Jia",
+    "nickName": "Jia",
+    "email": "wenchenglai@gmail.com",
+    "birthday": "1978/1/1",
+    "languages": ["Chinese", "English"],
+    "type": "Parent",
+    "gender": "female",
+    "avatarUrl": "jia.jpg",
+	"isUser" : true,
+    "facebookId" : "98743254",
+    "family" : "53a78f832e853854ec59d93f"
+  }
+}
+
+{ 
+  "member": {
+    "lastName": "Lai",
+    "firstName": "Sophie",
+    "nickName": "HanHan",
+    "email": "",
+    "birthday": "2011/1/1",
+    "languages": ["Chinese", "English"],
+    "type": "Daughter",
+    "gender": "female",
+    "avatarUrl": "sophielai.jpg",
+	"isUser" : false,
+    "facebookId" : "",
+    "family" : "53a78f832e853854ec59d93f"
+  }
+}
